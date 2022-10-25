@@ -1,0 +1,58 @@
+body {
+  background-color: #d7bde2;
+  display: grid;
+}
+
+#editor {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 2%;
+  border: 2px solid red;
+  min-height: 800px;
+  padding: 2%;
+  font-size: 20px;
+  background-color: #f5eef8;
+}
+
+#preview {
+  width: 85%;
+  border: 2px solid red;
+  margin: auto;
+  padding: 2%;
+  min-height: 800px;
+  background-color: #f5eef8;
+  font-size: 20px;
+}
+
+#preview img {
+  width: 100%;
+}
+
+code {
+  background: white;
+  font-weight: bold;
+}
+
+#preview-heading {
+  text-align: center;
+  border: 2px solid red;
+  width: 85%;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+#editor-heading {
+  border: 2px solid red;
+  width: 85%;
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+}
